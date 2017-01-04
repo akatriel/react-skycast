@@ -1,10 +1,13 @@
 var React = require('react');
 var Main = require('../containers/Main');
 var styles = require('../styles/home');
+var Nav = require('../components/Nav');
+
 
 function Home () {
 	return (
 		<Main>
+			<Nav />
 			<div style={styles.homebg}>
 				<div className="container text-center" style={styles.homeContainer}>
 					<h1>Enter a City and State</h1>
