@@ -1,8 +1,10 @@
 var React = require('react');
+var Nav = require('../components/Nav');
 
 function Main (props) {
 	return (
-		<div className="text-center">
+		<div>
+			<Nav />
 			{props.children}
 		</div>
 	)

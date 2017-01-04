@@ -6,7 +6,7 @@ function Home () {
 	return (
 		<Main>
 			<div style={styles.homebg}>
-				<div className="container" style={styles.homeContainer}>
+				<div className="container text-center" style={styles.homeContainer}>
 					<h1>Enter a City and State</h1>
 					<form className="col-sm-4 col-sm-offset-4">
 						<div className="form-group">
